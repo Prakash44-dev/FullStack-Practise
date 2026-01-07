@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume Form</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+
+    <!-- Heading -->
+    <h2 class="text-center mb-4">
+        <b>BASIC RESUME CREATION</b>
+    </h2>
+
+    <hr class="border border-dark border-2 border-dotted">
+
+    <!-- Objective -->
+    <h4 class="mt-4">Objective</h4>
+    <p>Give the basic details for generating a resume.</p>
+
+    <!-- Form -->
+    <form action="resume2.html">
+
+        <!-- Name -->
+        <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" placeholder="Enter your name">
+        </div>
+
+        <!-- Phone -->
+        <div class="mb-3">
+            <label class="form-label">Phone Number</label>
+            <input type="number" class="form-control" placeholder="Enter mobile number">
+        </div>
+
+        <!-- Email -->
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="Enter email">
+        </div>
+
+        <!-- Gender -->
+        <div class="mb-3">
+            <label class="form-label">Gender</label><br>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender" class="ms-3"> Female
+        </div>
+
+        <!-- Position -->
+        <div class="mb-3">
+            <label class="form-label">Position</label><br>
+            <input type="checkbox"> Student
+            <input type="checkbox" class="ms-3"> Employee
+        </div>
+
+        <!-- Skills -->
+        <div class="mb-3">
+            <label class="form-label">Skills</label><br>
+            <input type="checkbox"> HTML
+            <input type="checkbox" class="ms-2"> CSS
+            <input type="checkbox" class="ms-2"> JavaScript
+            <input type="checkbox" class="ms-2"> MERN
+        </div>
+
+        <!-- Submit -->
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-primary px-4">
+                Submit
+            </button>
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
