@@ -1,0 +1,40 @@
+nav {
+  justify-content: space-between;
+  display: flex;
+  padding: 30px;
+
+  color: aqua;
+}
+.head {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  background-color: black;
+  padding: 10px;
+  border-radius: 30px;
+}
+div {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo {
+  font-size: larger;
+  color: white;
+  font-weight: 300;
+}
+.text {
+  display: flex;
+  margin-top: 150px;
+  margin-bottom: auto;
+  justify-content: center;
+  align-items: center;
+  width: 750px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+}

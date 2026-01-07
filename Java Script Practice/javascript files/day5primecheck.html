@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check for Prime</title>
+  </head>
+  <body>
+    <h1 id="title">Check for Prime</h1>
+    <input type="number" id="num1" placeholder="Enter a number" />
+    <button onclick="checkprime()">Check</button>
+    <p id="result"></p>
+    <script>
+      function checkprime() {
+        let result = true;
+        const num1 = parseFloat(document.getElementById("num1").value);
+        for (let i = 2; i <= num1 - 1; i++) {
+          if (num1 % i == 0) {
+            result = false;
+            break;
+          } else {
+            result = true;
+          }
+        }
+        document.getElementById("title").textContent = "Isprime: " + result;
+      }
+    </script>
+  </body>
+</html>

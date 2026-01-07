@@ -1,0 +1,28 @@
+nav {
+  justify-content: space-between;
+  display: flex;
+  font-size: large;
+
+  background-color: black;
+  color: aqua;
+  padding: 30px;
+}
+.text {
+  font-size: medium;
+  height: 100vh;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .text {
+    color: aqua;
+  }
+}
+@media (max-width: 300px) {
+  .text {
+    color: red;
+  }
+}

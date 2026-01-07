@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="demo">
+      <script>
+        sessionStorage.setItem("username", "Prakash");
+        let sName = sessionStorage.getItem("username");
+        document.getElementById(
+          "demo"
+        ).innerHTML = `the session storage is :${sName}`;
+      </script>
+    </p>
+  </body>
+</html>

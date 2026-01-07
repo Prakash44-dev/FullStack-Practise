@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="demo1"></p>
+    <script type="module">
+      import sum from "./A_Module_2.js";
+      const result = sum(20, 30);
+      document.getElementById("demo1").innerHTML = `The result is ${result}`;
+    </script>
+  </body>
+</html>

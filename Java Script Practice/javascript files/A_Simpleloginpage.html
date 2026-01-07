@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <!-- get method is a defalt which has no security and its visible in adres bar ,but post gives securty but not a defualt method -->
+    <form onsubmit="return validate()" action="A_Success.html" method="post">
+      <label for="username">UserName : </label>
+      <input type="text" id="username" name="user_name" required />
+      <br /><br />
+
+      <label for="pass">Password : </label>
+      <input type="password" id="pass" name="password" required />
+      <br /><br />
+
+      <input type="submit" value="login" onclick="return validate()" />
+    </form>
+
+    <script src="A_simpleloginpage.js"></script>
+  </body>
+</html>
